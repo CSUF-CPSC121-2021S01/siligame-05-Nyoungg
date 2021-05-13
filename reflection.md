@@ -14,4 +14,4 @@ Describe the challenges you encountered while working on this milestone of the p
 ## Things I've learned
 What is the most important thing you've learned from this milestone in the project?
 
-    The most important thing I've learned in this milestone is that coding can get depressing.
+    The most important thing I've learned in this milestone is that coding can get annoying.
