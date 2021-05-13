@@ -170,8 +170,9 @@ void Game::OnMouseEvent(const graphics::MouseEvent& event) {
       player1.SetY(oldY);
     }
   }
-  if ((event.GetMouseAction() == graphics::MouseAction::kPressed || event.GetMouseAction() == graphics::MouseAction::kDragged) &&
-      player1.GetIsActive() ) {
+  if ((event.GetMouseAction() == graphics::MouseAction::kPressed ||
+       event.GetMouseAction() == graphics::MouseAction::kDragged) &&
+      player1.GetIsActive()) {
     std::unique_ptr<PlayerProjectile> ptr(
         new PlayerProjectile(player1.GetX() + 25, player1.GetY(), 5, 5));
     playerProjectile.push_back(std::move(ptr));
